@@ -20,5 +20,7 @@ dependencies {
     compile "io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry"
     compile "org.springframework.security:spring-security-config:$springVersion"
     compile "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server"
+
     testCompile project(":components:test-support")
+
 }
