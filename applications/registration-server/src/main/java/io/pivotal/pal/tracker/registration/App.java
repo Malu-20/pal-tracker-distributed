@@ -12,7 +12,9 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableOAuth2Client;
 
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 
+@EnableCircuitBreaker
 @EnableWebSecurity
 @EnableResourceServer
 @EnableOAuth2Client
